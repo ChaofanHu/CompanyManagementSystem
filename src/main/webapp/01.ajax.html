@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+
+<script>
+  // 创建 XMLHttpRequest 对象
+  var xmlhttp;
+  if (window.XMLHttpRequest)
+  {
+      //  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+      xmlhttp=new XMLHttpRequest();
+  }
+  else
+  {
+      // IE6, IE5 浏览器执行代码
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+
+  // 发送请求
+  xhttp.open("GET", "http://localhost/JavaWeb/AjaxServlet1");
+  xhttp.send();
+
+
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+              alert(this.responseText);
+    }
+  };
+
+
+</script>
+
+</body>
+</html>

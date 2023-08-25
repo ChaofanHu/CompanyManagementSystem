@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [29/Apr/2023:00:01:18 +0200] "GET /JavaWeb/ HTTP/1.1" 200 52 http-bio-8080-exec-1 38
+0:0:0:0:0:0:0:1 - - [29/Apr/2023:00:01:22 +0200] "GET /JavaWeb/demo1.html HTTP/1.1" 200 408 http-bio-8080-exec-2 18
+0:0:0:0:0:0:0:1 - - [29/Apr/2023:00:01:23 +0200] "GET /JavaWeb/demo1 HTTP/1.1" 200 - http-bio-8080-exec-3 28
+0:0:0:0:0:0:0:1 - - [29/Apr/2023:00:01:32 +0200] "GET /JavaWeb/demo03?username=11&password=123&hobby=1&hobby=2 HTTP/1.1" 200 - http-bio-8080-exec-5 17
+0:0:0:0:0:0:0:1 - - [29/Apr/2023:00:03:21 +0200] "GET /JavaWeb/demo03?username=11&password=123&hobby=1&hobby=2 HTTP/1.1" 200 - http-bio-8080-exec-1 30

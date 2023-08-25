@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [26/Jul/2023:16:06:47 +0800] "GET /JavaWeb HTTP/1.1" 302 - http-bio-80-exec-1 0
+0:0:0:0:0:0:0:1 - - [26/Jul/2023:16:06:47 +0800] "GET /JavaWeb/ HTTP/1.1" 200 52 http-bio-80-exec-2 86
+0:0:0:0:0:0:0:1 - - [26/Jul/2023:16:07:04 +0800] "GET /JavaWeb/AjaxServlet1 HTTP/1.1" 200 5 http-bio-80-exec-3 11
+0:0:0:0:0:0:0:1 - - [26/Jul/2023:16:09:02 +0800] "GET /JavaWeb/AjaxServlet1 HTTP/1.1" 200 5 http-bio-80-exec-5 2
+0:0:0:0:0:0:0:1 - - [26/Jul/2023:16:09:16 +0800] "GET /JavaWeb/AjaxServlet1 HTTP/1.1" 200 5 http-bio-80-exec-6 1
+0:0:0:0:0:0:0:1 - - [26/Jul/2023:16:09:17 +0800] "GET /JavaWeb/AjaxServlet1 HTTP/1.1" 200 5 http-bio-80-exec-7 3
+0:0:0:0:0:0:0:1 - - [26/Jul/2023:16:09:51 +0800] "GET /JavaWeb/AjaxServlet1 HTTP/1.1" 200 5 http-bio-80-exec-1 24
